@@ -4,8 +4,7 @@
 # All Vagrant configuration is done below.
 Vagrant.configure(2) do |config|
 
-  config.vm.box = "vagrant-debian_8.6.0-64"
-  config.vm.box_url = "http://pub.cvepdb.fr/vagrant-debian_8.6.0-64.box"
+  config.vm.box = "hashicorp/precise64"
 
   # Create a forwarded port mapping which allows access to a specific port
   # within the machine from a port on the host machine.
